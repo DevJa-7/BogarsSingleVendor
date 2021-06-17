@@ -1,0 +1,65 @@
+.div-center {
+    justify-content: center;
+    display: flex;
+}
+.div-center-middle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.d-flex {
+    display: flex;
+}
+.d-inherit { 
+    display: inherit; 
+}
+.mt-auto {
+    margin-top: auto;
+}
+
+.row {
+    margin: 0px ;
+}
+[class*="col-"],
+[class^="col-"] {
+    padding: 0px;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+.op5 {
+    opacity: .5;
+}
+.op7 {
+    opacity: .7;
+}
+.op8 {
+    opacity: .8;
+}
+
+.border-b-dashed {
+    border-bottom: 1px dashed #cccccc;
+}
+
+/* seperate line in the middle */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+
+.customer-body { padding: 5rem 0px 2rem 0px; }
+.customer-body .list { padding: 20px; color: var(--main-color); }
+
+.customer-body .list { padding: 20px; color:#333333; margin-bottom: 20px; }
+.customer-body .list h2 {text-transform: uppercase; font-size:22px; margin: 0; padding: 0; padding-bottom: 10px; margin-bottom: 10px; border-bottom:1px solid #e8e8e8;}
+.customer-body .list a {color:#CCCCCC; font-size:16px; line-height: 23px; position: relative;}
+.customer-body .list a:hover, 
+.customer-body .list li.active a {text-decoration: none; color: var(--main-color); }
+.customer-body .list ul {margin: 0; padding: 0; list-style: none;}
+.customer-body .list ul li {margin-bottom: 10px;}
+.customer-body .list ul li a span {display: block; position: absolute; width:100%; height: 2px; bottom: -2px; left:0;}
+.customer-body .list ul li a span:after { content: ''; display: block; margin: auto;  height: 3px;  width: 0px;  background: transparent;  transition: width .5s ease, background-color .5s ease;}
+.customer-body .list ul li a:hover span:after { width: 100%; background: #7eb531;}
+.customer-body .list ul li span {float: right; cursor: pointer;}
+.customer-body .list ul.children { margin-top: 10px; display: none;}
+.customer-body .list ul.children li {padding-left: 10px;}
+.customer-body .list ul.children a {color:#999999; font-size:12px;}
+.customer-body .list ul.children a:hover, .products-page .categories ul.children li.active a {text-decoration: none; color: val(--main-color); }
+.customer-body .list ul li span .fa-minus {display: none;}
+

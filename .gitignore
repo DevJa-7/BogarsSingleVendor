@@ -1,0 +1,9 @@
+# vendor folder
+/vendor
+/node_modules
+
+/public/storage
+
+# env file
+package-lock.json
+.env
